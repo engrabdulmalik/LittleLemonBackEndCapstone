@@ -26,5 +26,6 @@ urlpatterns = [
     path('', include('restaurant.urls')),
     path('restaurant/', include('restaurant.urls')),
     path('restaurant/', include(router.urls)),
+    path('api/', include('restaurant.urls')),
 
 ]
